@@ -1,3 +1,4 @@
+import 'package:exam/routes/my_routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,12 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Kunlik',
+      theme: ThemeData(),
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      // home: const HomePage(),
+      onGenerateRoute: MyRoutes.instanse.onGenerate,
+      initialRoute: '/splash',
     );
   }
 }
