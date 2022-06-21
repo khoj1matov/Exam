@@ -4,7 +4,7 @@ class MyTextStyleComp {
   static TextStyle myTextStyle({
     Color color = Colors.black,
     double fontSize = 14,
-    FontWeight weight = FontWeight.normal,
+    FontWeight weight = FontWeight.w500,
   }) =>
       TextStyle(
         color: color,

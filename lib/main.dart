@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Kunlik',
+      title: 'Organico',
       theme: ThemeData(),
       debugShowCheckedModeBanner: false,
       onGenerateRoute: MyRoutes.instanse.onGenerate,
-      initialRoute: '/splash',
+      initialRoute: '/profile',
     );
   }
 }
