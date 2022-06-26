@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "283109192612",
+    "project_id": "organico-f909e",
+    "storage_bucket": "organico-f909e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283109192612:android:67ac38deb7f1653a548731",
+        "android_client_info": {
+          "package_name": "com.khoj1matov.examorganico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283109192612-dul57m1t3mq777e798bq6u4o9qc3hpcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmMF99fozpUGzS2SB-JlZ-0h9-0c-GzEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283109192612-dul57m1t3mq777e798bq6u4o9qc3hpcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
